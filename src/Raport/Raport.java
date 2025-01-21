@@ -1,3 +1,5 @@
+package Raport;
+
 import java.io.*;
 import java.util.*;
 
@@ -19,7 +21,7 @@ public class Raport {
 
         try {
             BufferedReader br = new BufferedReader(new FileReader("input.txt"));
-            BufferedReader brSrednik = new BufferedReader(new FileReader("inputB.txt"));
+//            BufferedReader brSrednik = new BufferedReader(new FileReader("inputB.txt"));
             BufferedWriter bw = new BufferedWriter(new FileWriter("output.txt"));
             BufferedWriter bwSuma = new BufferedWriter(new FileWriter("suma.txt"));
             BufferedWriter bwPosortowanaSuma = new BufferedWriter(new FileWriter("PosortowanaSuma.txt"));
